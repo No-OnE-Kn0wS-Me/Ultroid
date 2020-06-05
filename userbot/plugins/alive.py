@@ -15,7 +15,7 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("`──────▄▀▄─────▄▀▄ \n─────▄█░░▀▀▀▀▀░░█▄ \n─▄▄──█░░░░░░░░░░░█──▄▄ \n█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█ \nYour bot is running\n\nTelethon version: 6.9.0\nPython: 3.7.3\n\n`"
                      f"`My Rightful OWNER`: {DEFAULTUSER}\n"
-                     "`Telethon version: 6.9.0\nPython: 3.7.3\n\n"
-                     f"`Server HQ` : Switch SUPERNAP Campus, Las Vegas\n"
+                     
+                     f"`Server HQ` : [Switch SUPERNAP Campus, Las Vegas](www.google.com]\n"
                      "`Database Status: Databases functioning normally!\n\nAlways with you, MY MASTER!\n`"
                      "[Deploy this Userbot Now](https://github.com/JyothisJayanth/GujjuBot)")
