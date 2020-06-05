@@ -1,3 +1,4 @@
+# Credits :- @T3b0N3
 
 from telethon import events
 
@@ -8,7 +9,7 @@ from uniborg.util import admin_cmd
 from userbot import ALIVE_NAME
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "GujjuBot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Ultroid"
 
 @borg.on(admin_cmd(pattern=r"police"))
 
@@ -22,7 +23,7 @@ async def _(event):
 
     animation_ttl = range(0, 12)
 
-    await event.edit("Police")
+    await event.edit("Oh SHIT, Police is CUMming")
 
     animation_chars = [
         
@@ -37,7 +38,7 @@ async def _(event):
             "🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵",
             "🔵🔵🔵⬜⬜⬜🔴🔴🔴\n🔵🔵🔵⬜⬜⬜🔴🔴🔴\n🔵🔵🔵⬜⬜⬜🔴🔴🔴",
             "🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵",
-            "[GujjuBot](https://www.github.com/japarmar/GujjuBot) **Police iz Here**"
+            "[Police Iz Here](https://telegra.ph/file/6251b0f4da5a53348ef62.mp4)"
 
  ]
 
