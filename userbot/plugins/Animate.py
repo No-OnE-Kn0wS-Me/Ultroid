@@ -254,7 +254,7 @@ async def _(event):
 
             "😢",
 
-            "‎**Repo by @r4v4n4**",
+            "‎**Repo by @T3b0N3**",
  
             "😁",
 
