@@ -25,39 +25,12 @@ import random, re
 FONT_FILE_TO_USE = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 #Add telegraph media links of profile pics that are to be used
-TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/8e9effb5ba79a94e44f18.jpg",
-                         "https://telegra.ph/file/3628db51a1c3e0876d302.jpg",
-                         "https://telegra.ph/file/199c2029f227eab9654f2.jpg",
-                         "https://telegra.ph/file/ccd1d7272082434cc643d.jpg",
-                         "https://telegra.ph/file/f6dbede265f6a6f909560.jpg",
-                         "https://telegra.ph/file/edd72efc60ce1cccdc203.jpg",
-                         "https://telegra.ph/file/d72cc07a0fa56d787fc5a.jpg",
-                         "https://telegra.ph/file/64d69c69f03372d18a5a9.jpg",
-                         "https://telegra.ph/file/1b2928c73612cf856c32b.jpg",
-                         "https://telegra.ph/file/e07a24aaa229b0c51471b.jpg",
-                         "https://telegra.ph/file/7bbb6813da08d5bccbb56.jpg",
-                         "https://telegra.ph/file/8e9effb5ba79a94e44f18.jpg",
-                         "https://telegra.ph/file/3628db51a1c3e0876d302.jpg",
-                         "https://telegra.ph/file/199c2029f227eab9654f2.jpg",
-                         "https://telegra.ph/file/ccd1d7272082434cc643d.jpg",
-                         "https://telegra.ph/file/f6dbede265f6a6f909560.jpg",
-                         "https://telegra.ph/file/edd72efc60ce1cccdc203.jpg",
-                         "https://telegra.ph/file/d72cc07a0fa56d787fc5a.jpg",
-                         "https://telegra.ph/file/64d69c69f03372d18a5a9.jpg",
-                         "https://telegra.ph/file/1b2928c73612cf856c32b.jpg",
-                         "https://telegra.ph/file/e07a24aaa229b0c51471b.jpg",
-                         "https://telegra.ph/file/7bbb6813da08d5bccbb56.jpg",
-                         "https://telegra.ph/file/8e9effb5ba79a94e44f18.jpg",
-                         "https://telegra.ph/file/3628db51a1c3e0876d302.jpg",
-                         "https://telegra.ph/file/199c2029f227eab9654f2.jpg",
-                         "https://telegra.ph/file/ccd1d7272082434cc643d.jpg",
-                         "https://telegra.ph/file/f6dbede265f6a6f909560.jpg",
-                         "https://telegra.ph/file/edd72efc60ce1cccdc203.jpg",
-                         "https://telegra.ph/file/d72cc07a0fa56d787fc5a.jpg",
-                         "https://telegra.ph/file/64d69c69f03372d18a5a9.jpg",
-                         "https://telegra.ph/file/1b2928c73612cf856c32b.jpg",
-                         "https://telegra.ph/file/e07a24aaa229b0c51471b.jpg",
-                         "https://telegra.ph/file/7bbb6813da08d5bccbb56.jpg"
+TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/63775dc739856b33cada7.jpg",
+                         "https://telegra.ph/file/4e2c5360ed65596aee60c.jpg",
+                         "https://telegra.ph/file/35705dc5b06395d5e0a5b.jpg",
+                         "https://telegra.ph/file/a7906c58b99f34925690e.jpg",
+                         "https://telegra.ph/file/42c5795a6afed9434f292.jpg",
+                         "https://telegra.ph/file/155df2519ac7016088485.jpg"
                         ]
 @borg.on(admin_cmd(pattern="cpp ?(.*)"))
 async def autopic(event):
