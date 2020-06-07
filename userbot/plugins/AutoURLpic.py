@@ -30,7 +30,7 @@ TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/f1cfd1f5d38a5214ed72e.jpg",
                          "https://telegra.ph/file/b5118ce503e983d3b93a8.jpg",
                          "https://telegra.ph/file/875690a38eea9a999a6cb.jpg",
                          "https://telegra.ph/file/78d431d439061f62f50e8.jpg",
-                         "https://telegra.ph/file/d4646bf5d625627816b98.jpg",
+                         "https://telegra.ph/file/6e4129870762cd4dbbe02.jpg",
                          "https://telegra.ph/file/35705dc5b06395d5e0a5b.jpg",
                          "https://telegra.ph/file/a7906c58b99f34925690e.jpg",
                          "https://telegra.ph/file/42c5795a6afed9434f292.jpg",
@@ -51,7 +51,7 @@ async def autopic(event):
     
         shutil.copy(downloaded_file_name, photo)
         im = Image.open(photo)
-        current_time = datetime.now().strftime("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                                                    ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ \n                                                        Time: %H:%M \n                                                      Date: %d.%m.%y \n                                                   ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡")
+        current_time = datetime.now().strftime("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                                                    ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ \n                                                           Time: %H:%M \n                                                            Date: %d.%m.%y \n                                                   ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡")
         img = Image.open(photo)
         drawn_text = ImageDraw.Draw(img)
         fnt = ImageFont.truetype(FONT_FILE_TO_USE, 36)
