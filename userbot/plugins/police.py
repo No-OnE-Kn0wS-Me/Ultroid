@@ -38,7 +38,7 @@ async def _(event):
             "🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵",
             "🔵🔵🔵⬜⬜⬜🔴🔴🔴\n🔵🔵🔵⬜⬜⬜🔴🔴🔴\n🔵🔵🔵⬜⬜⬜🔴🔴🔴",
             "🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵",
-            "https://telegra.ph/file/6251b0f4da5a53348ef62.mp4"
+            "[Police Iz Here](https://telegra.ph/file/6251b0f4da5a53348ef62.mp4)"
 
  ]
 
@@ -46,4 +46,4 @@ async def _(event):
 
         await asyncio.sleep(animation_interval)
 
-        await event.edit(animation_chars[i % 13])
+        await event.edit(animation_chars[i % 12])
