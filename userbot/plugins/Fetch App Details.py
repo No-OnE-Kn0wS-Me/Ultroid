@@ -67,7 +67,7 @@ async def apk(e):
 
         app_details += "\n<code>Features :</code> <a href='"+app_link+"'>View in Play Store</a>"
 
-        app_details += "\n\n🥳 @FridaySupportOfficial 🥳"
+        app_details += "\n\n Powered By Ultroid (c) "
 
         await e.edit(app_details, link_preview = True, parse_mode = 'HTML')
 
@@ -125,7 +125,7 @@ async def apkr(e):
 
         app_details += "\n\n<b>Download : </b> <a href='https://t.me/IndianBot_Official'>Request_Here by typing #request</a>"
 
-        app_details += "\n\n===>🥳 @FridaySupportOfficial 🥳<==="
+        app_details += "\n\n===>Powered by Ultroid(c)<==="
 
         await e.edit(app_details, link_preview = True, parse_mode = 'HTML')
 
