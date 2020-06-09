@@ -29,10 +29,9 @@ async def _(event):
           except YouBlockedUserError: 
               await event.reply("```Please unblock Files to LinkBot```")
               return
-          if response.text.startswith("Send a telegram file to get its directlink."):
+          if response.text.startswith("I"):
              await event.edit("```Disable Your Forward Privacy Settings!```")
           else: 
-             response.text.startswith("Direct Link generated"):
              return
              await event.delete()
              await event.client.send_message(event.chat_id, response.message)
