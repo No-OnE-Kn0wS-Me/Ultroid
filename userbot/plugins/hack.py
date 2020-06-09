@@ -40,14 +40,48 @@ async def _(event):
         
             "`Connecting To Hacked Private Server...`",
             "`Target Selected.`",
-            "`Hacking... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",    
-            "`Hacking... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 84%\n█████████████████████▒▒▒▒ `",
-            "`Hacking... 100%\n█████████HACKED███████████ `",
+            "`struct group_info *groups_alloc(int gidsetsize){...|  `",
+            "`struct group_info *groups_alloc(int gidsetsize){...\  `",
+            "`struct group_info *groups_alloc(int gidsetsize){...―  `",
+            "`struct group_info *groups_alloc(int gidsetsize){.../  `",
+            "`struct group_info *groups_alloc(int gidsetsize){...|  `",
+            "`struct group_info *groups_alloc(int gidsetsize){...\  `",
+            "`struct group_info *group_info; \n\nint nblocks; \nint i;...―  `",
+            "`struct group_info *group_info; \n\nint nblocks; \nint i;.../  `", 
+            "`struct group_info *group_info; \n\nint nblocks; \nint i;...|  `",
+                "`int i; \nnblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;...|  `",
+                "`nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK; /nnblocks = nblocks ? : 1;...\  `",
+                "`nblocks = nblocks ? : 1; /nif (!group_info) /nreturn NULL;...―  `",
+                "`if (!group_info) /nreturn NULL; /nfor (i = 0; i < group_info->nblocks; i++).../  `",
+                "`for (i = 0; i < group_info->nblocks; i++) \n...|  `",
+                "`...\  `",
+                "`...―  `",
+                "`.../  `",
+                "`...|  `",
+                "`...\  `",
+                "`...―  `",
+                "`.../  `",
+                "`...|  `",
+                "`...\  `",
+                "`...―  `",
+                "`.../  `",
+                "`...|  `",
+                "`...\  `",
+                "`...―  `",
+                "`.../  `",
+                "`...|  `",
+                "`...\  `",
+                "`...―  `",
+                "`.../  `",
+                "`...|  `",
+                "`...\  `",
+                "`...―  `",
+                "`.../  `",
+                "`...|  `",
+                "`...\  `",
+                "`...―  `",
+                "`.../  `",
+                
             "`Targeted Account Hacked...\n\nPay 69$ To` @WhySooSerious `To Remove this hack..`"
             ]
 
@@ -55,7 +89,7 @@ async def _(event):
 
                 await asyncio.sleep(animation_interval)
 
-                await event.edit(animation_chars[i % 11])
+                await event.edit(animation_chars[i % 40])
     else:
         await event.edit("No User is Defined\n Can't hack account")
             
