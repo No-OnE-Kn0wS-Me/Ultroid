@@ -60,14 +60,14 @@ async def _(event):
         ms = (end - start).seconds
         await event.edit("Oh, Finally Background was Removed in {} seconds".format(ms))
     else:
-        await event.edit("ReMove.BG API returned Errors. Please report to @UniBorg\n`{}".format(output_file_name.content.decode("UTF-8")))
+        await event.edit("ReMove.BG API returned Errors. Please report to @Tb0N3\n`{}".format(output_file_name.content.decode("UTF-8")))
 
 
 # this method will call the API, and return in the appropriate format
 # with the name provided.
 def ReTrieveFile(input_file_name):
     headers = {
-        "API-Key": Config.REM_BG_API_KEY,
+        "X-API-Key": Config.REM_BG_API_KEY,
     }
     files = {
         "image_file": (input_file_name, open(input_file_name, "rb")),
@@ -84,7 +84,7 @@ def ReTrieveFile(input_file_name):
 
 def ReTrieveURL(input_url):
     headers = {
-        "API-Key": Config.REM_BG_API_KEY,
+        "X-API-Key": Config.REM_BG_API_KEY,
     }
     data = {
       "image_url": input_url
