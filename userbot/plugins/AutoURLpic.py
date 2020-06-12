@@ -43,7 +43,7 @@ TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/653fc27e3682bbf162909.jpg", #1
                         ]
 @borg.on(admin_cmd(pattern="cpp ?(.*)"))
 
-    await event.edit("√[ʷʀᴇɴᴄʰ](https://t.me/WhySooSerious)⭞'s Profile Pic have been Enabled") 
+    await event.edit("√[Wrench](https://t.me/WhySooSerious)'s Profile Pic have been Enabled") 
 
 async def autopic(event):
     while True:
