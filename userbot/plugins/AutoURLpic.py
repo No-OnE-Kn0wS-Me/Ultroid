@@ -43,8 +43,6 @@ TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/653fc27e3682bbf162909.jpg", #1
                         ]
 @borg.on(admin_cmd(pattern="cpp ?(.*)"))
 
-    await event.edit("√[Wrench](https://t.me/WhySooSerious)'s Profile Pic have been Enabled") 
-
 async def autopic(event):
     while True:
         piclink = random.randint(0, len(TELEGRAPH_MEDIA_LINKS) - 1)
@@ -73,5 +71,6 @@ async def autopic(event):
             os.remove(photo)
             
             await asyncio.sleep(60)
+                await event.edit("√[Wrench](https://t.me/WhySooSerious)'s Profile Pic have been Enabled") 
         except:
             return
