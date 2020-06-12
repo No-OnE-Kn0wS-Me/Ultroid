@@ -38,8 +38,29 @@ TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/653fc27e3682bbf162909.jpg", #1
                          "https://telegra.ph/file/c562a89f51f200cd2d73d.jpg", #11
                          "https://telegra.ph/file/38cb0ae7a597f90cdfb6f.jpg", #12
                          "https://telegra.ph/file/5db152b6816ed38eeaa54.jpg", #13
-                         "https://telegra.ph/file/8798ba20268c4d565c768.jpg", #13
-                         "https://telegra.ph/file/155df2519ac7016088485.jpg"  #15
+                         "https://telegra.ph/file/8798ba20268c4d565c768.jpg", #14
+                         "https://telegra.ph/file/155df2519ac7016088485.jpg", #15
+                         "https://telegra.ph/file/32a1d3d57fc6e55a27a30.jpg",
+                         "https://telegra.ph/file/fbcc1e15a9108624469e8.jpg",
+                         "https://telegra.ph/file/0adfdf07fc605401a46ba.jpg",
+                         "https://telegra.ph/file/f8f20b977921f70579699.jpg",
+                         "https://telegra.ph/file/e53442f8088999bdcc9dd.jpg",
+                         "https://telegra.ph/file/82b25c6d61a7cba911cea.jpg",
+                         "https://telegra.ph/file/2a90be83bda957faae677.jpg",
+                         "https://telegra.ph/file/29d5fc794c1ec04f70270.jpg",
+                         "https://telegra.ph/file/39acabb5adda99239de57.jpg",
+                         "https://telegra.ph/file/4757698842d88a76d578b.jpg", #10
+                         "https://telegra.ph/file/77030271092dc88c3c6b3.jpg",
+                         "https://telegra.ph/file/d7a29822dd81da67c3f06.jpg",
+                         "https://telegra.ph/file/56d0bc1d268ba4b820fee.jpg",
+                         "https://telegra.ph/file/b7a19715884228c1a07c4.jpg",
+                         "https://telegra.ph/file/6bba4a75f40876003ae8a.jpg",
+                         "https://telegra.ph/file/f07359a81ca8c783f9883.jpg",
+                         "https://telegra.ph/file/b5120d0c4bf8f76f220fd.jpg",
+                         "https://telegra.ph/file/1f1cff83afd6fc7321350.jpg",
+                         "https://telegra.ph/file/f1b040c4c1bebf6e72e76.jpg".
+                         "https://telegra.ph/file/783d45f0a273bfc3a782f.jpg"
+
                         ]
 @borg.on(admin_cmd(pattern="cpp ?(.*)"))
 
@@ -57,7 +78,7 @@ async def autopic(event):
     
         shutil.copy(downloaded_file_name, photo)
         im = Image.open(photo)
-        current_time = datetime.now().strftime("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                                                     ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ \n                                                             Time: %H:%M \n                                                          Date: %d.%m.%y \n                                                   ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡")
+        current_time = datetime.now().strftime("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                                                    ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ \n                                                             Time: %H:%M \n                                                          Date: %d.%m.%y \n                                                   ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡")
         img = Image.open(photo)
         drawn_text = ImageDraw.Draw(img)
         fnt = ImageFont.truetype(FONT_FILE_TO_USE, 36)
