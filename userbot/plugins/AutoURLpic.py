@@ -71,6 +71,5 @@ async def autopic(event):
             os.remove(photo)
             
             await asyncio.sleep(60)
-                await event.edit("√[Wrench](https://t.me/WhySooSerious)'s Profile Pic have been Enabled") 
-        except:
+    except:
             return
