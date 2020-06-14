@@ -1,5 +1,6 @@
 '''
-for bot credits to @pureindialover
+for bot credits to @Dev_OwO
+© Ultroid
 '''
 
 from telethon.tl import functions, types
