@@ -123,9 +123,9 @@ async def apkr(e):
 
         app_details += "\n<code>Features :</code> <a href='"+app_link+"'>View in Play Store</a>"
 
-        app_details += "\n\n<b>Download : </b> <a href='https://t.me/IndianBot_Official'>Request_Here by typing #request</a>"
+        app_details += "\n\n<b>Download : </b> <a href='https://t.me/Dev_OwO'>Request_Here by typing #request</a>"
 
-        app_details += "\n\n===>Powered by Ultroid(c)<==="
+        app_details += "\n\n===>Powered by [Ultroid](https://t.me/Dev_OwO)<==="
 
         await e.edit(app_details, link_preview = True, parse_mode = 'HTML')
 
