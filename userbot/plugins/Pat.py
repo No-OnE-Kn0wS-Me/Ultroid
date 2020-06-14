@@ -1,7 +1,7 @@
 ﻿"""
 HeadPat Module for Userbot (http://headp.at)
 cmd:- .pat username or reply to msg
-By:- git: jaskaranSM tg: @Zero_cool7870
+© Ultroid - @WhySooSerious, @TheUnusualPsychopath
 """
 
 
