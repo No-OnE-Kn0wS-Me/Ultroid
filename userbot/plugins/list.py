@@ -3,7 +3,7 @@ List Files plugin for userbot //Simple Module for people who dont wanna use shel
 cmd: .ls // will return files from current working directory
 	 .ls path // will return output according to path  
 
-By:- @Zero_cool7870
+Ultroid By @TheUnusualPsychopath, @WhySooSerious
 
 """
 
